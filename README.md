@@ -14,7 +14,7 @@
 В итоге получаете ключ и копируете его в код.
 
 Для того чтобы всё заработало нужно установить нужные модули:
-pip install pyowm
-pip install pyTelegramBotAPI
+pip install pyowm,
+pip install pyTelegramBotAPI.
 
 Запускаем код находим нашего бота, botFather даёт ссылку на него и радуемся!
