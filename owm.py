@@ -6,7 +6,7 @@ import telebot
 
 config_dict = config.get_default_config()
 config_dict['language'] = 'ru'
-owm = OWM('854ad977e3ff1041d70dd0e5b1bad5b7', config_dict)
+owm = OWM('Your key "https://t.me/BotFather"', config_dict)
 mgr = owm.weather_manager()
 
 bot = telebot.TeleBot("1853857581:AAHlSj1TNlhrCTTqSxQ4d0aWO-FPDXi5SlM", parse_mode=None)
